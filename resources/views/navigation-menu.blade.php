@@ -13,7 +13,22 @@
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
                     <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
+                        {{ __('Inicio') }}
+                    </x-nav-link>
+                    <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
+                        {{ __('Noticias') }}
+                    </x-nav-link>
+                    <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
+                        {{ __('Jurisprudencia') }}
+                    </x-nav-link>
+                    <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
+                        {{ __('Seminarios') }}
+                    </x-nav-link>
+                    <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
+                        {{ __('Articulos') }}
+                    </x-nav-link>
+                    <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
+                        {{ __('Nosotros') }}
                     </x-nav-link>
                 </div>
             </div>
